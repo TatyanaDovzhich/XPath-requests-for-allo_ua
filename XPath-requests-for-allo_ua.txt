@@ -1,0 +1,92 @@
+XPath-Запросы к элементам страницы https://allo.ua/
+
+Header
+•	Ссылка «Блог»
+//ul[@class="header-links"]//a[@href="https://blog.allo.ua/ua/"]
+•	Ссылка «Вакансии» 
+//ul[@class="header-links"]//a[@href="https://work.allo.ua/ua/golovna/"]
+•	Ссылка «Магазин»
+//ul[@class="header-links"]//a[@href="//allo.ua/ua/offline_stores/"]
+•	Ссылка «Доставка и оплата»
+//ul[@class="header-links"]//a[@href="//allo.ua/ua/help/shipment_payment/"]
+•	Ссылка «Гарантия»
+//ul[@class="header-links"]//a[@href="//allo.ua/ua/help/warranty_and_service/"]
+•	Ссылка «Кредит»
+//ul[@class="header-links"]//a[@href="//allo.ua/ua/help/credit/"]
+•	Ссылка «Контакты»
+//ul[@class="header-links"]//a[@href="//allo.ua/ua/contact-us/"]
+•	Кнопка «UA»
+//div[@class="current-value-container 
+container"]//span[@id="current-label"]
+•	Выпадающее меню – языки RU/UA
+//div[@class="switcher-menu container"]//span[@class="store-label"]
+•	Логотип
+            //div[@class="main-logo"]//a[@href="//allo.ua/ua/"]
+•	Ссылка «Монобанк»
+//div[@class="header-content"]//a[@href="//allo.ua/ua/monobank/"]
+
+•	Ссылка «Алло-Обмен»
+//div[@class="header-content"]//a[@href="//allo.ua/ua/tradein/"]
+
+•	Ссылка «Уценка»
+//div[@class="header-content"]//a[@href="https://outlet.allo.ua/ua/"]
+
+•	Ссылка «Акции»
+//div[@class="header-content"]//a[@href="//allo.ua/ua/events-and-discounts/"]
+
+•	Поле «Поиск»
+//form[@id="search_mini_form"]//input[@id="search"]
+
+•	Кнопка «Найти»
+//form[@id="search_mini_form"]//button[@class="button"]
+
+•	Поле «Корзина»
+//div[@id="topCartTitle"]//div[@class="name-container"]
+
+•	Поле «Телефон 0 800 300 100»
+//div[@class="phone-header"]//span[@class="tel"]
+
+•	Выпадающее меню «Вложенные номера телефонов»
+//div[@id="phonePopup"]//div[@class="phone-inner"]
+
+•	Блок «Ваш аккаунт»
+//div[@id="account-block"]
+
+•	Заголовок «Вход в Алло»
+//div[@class="login-form-container"]//span[@class="title"]
+
+•	Поле «Электронная почта» в выпадающем меню регистрации
+//div[@class="login-form-container"]//input[@id="email"]
+
+•	Поле «Пароль» в выпадающем меню регистрации
+//div[@class="login-form-container"]//input[@id="pass"]
+
+•	Ссылка «Забыли пароль?»
+//div[@class="login-form-container"]//a[@id="forgot_password_link"]
+
+•	Кнопка «Вход»
+//div[@class="login-form-container"]//button[@class="submit-button"]
+
+•	Кнопка «Facebook»
+//div[@class="social-links"]//a[@class="weinsocial_a weinsocial_fb"]
+
+•	Кнопка «Google»
+//div[@class="social-links"]//a[@class="weinsocial_a weinsocial_g"]
+
+•	Ссылка «Зарегистрироваться»
+//div[@class="login-or-register 
+register"]//a[@onclick="choiceMenuRegister();"]
+
+•	Пункт «Планшеты, ноутбуки и ПК» выпадающего меню «Каталог 
+товаров»
+//div[@id="main-menu-popup"]//a[@href="//allo.ua/ua/planshety-i-gadzhety/"]
+
+•	Ссылка «Asus» меню «Ноутбуки» 
+/div[@id="menu_planshety"]//a[@href="//allo.ua/ua/products/notebooks/proizvoditel-asus/"]
+
+•	Ссылка «Наборы инструментов» меню «Автоинструменты» пункта 
+«Автотовары» выпадающего меню «Каталог товаров»
+//div[@id="menu_auto"]//a[@href="//allo.ua/ua/nabory-instrumentov/"]
+Или 
+//a[@href="//allo.ua/ua/nabory-instrumentov/"]
+
